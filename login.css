@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: purple;
+}
+
+.parent-div{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 6rem 1rem 6rem 1rem;
+    background-color: #163300;
+    color: white;
+    height: 100vh;
+    width: 50vw;
+
+}
+.login-content{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    font-size: 1.2rem;
+    
+    
+}
+.text-container{
+    color: #163300;
+    background-color: white;
+    height: 100vh;
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+}
+.inner-login-container{
+    border: 1px solid white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+    gap: 3rem;
+    background-color: white;
+    color: black;
+    width: 30vw;
+}
+.login-text{
+    font-size: 2rem;
+}
+button{
+
+    border-radius: 10px;
+    border: none;
+    background-color: #9FE870;
+    height: 3rem;
+    text-align: center;
+    cursor: pointer;
+    
+}
+button:active{
+    background-color: #65BE2B;
+}
+
+.input-styles{
+    border-radius: 10px;
+    border: none;
+    height: 30px;
+    border: 1px solid black;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+.input-styles:focus{
+    border: none;
+}
+.arrow{
+    font-size: 1.5rem;
+}
+.btn-text{
+    font-size: 1.1rem;
+}
