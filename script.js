@@ -7,6 +7,9 @@ var file_btn = document.getElementById("file-btn");
 tab_btn_1.addEventListener("click",changeBGOfBtn_1);
 tab_btn_2.addEventListener("click",changeBGOfBtn_2);
 file_btn.addEventListener("click",revealFileInput);
+document.addEventListener("DOMContentLoaded",()=>{
+    tab_btn_1.classList.add("active_1");
+})
 
 
 //funcs declarations
