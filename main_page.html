@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal File Share</title>
+    <link rel="stylesheet" href="main_page.css">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="#" class="logo-text">Fs</a>
+        <img src="./assets/user.png" alt="userlogo" width="32" height="32">
+    </nav>
+
+    <div class="outer-files-container">
+        <h1 class="files-text">Send or Receive Files</h1>
+        <div class="inner-files-container">
+            <div class="tabs">
+                <button class="tab-btn" id="tab-btn-1">
+                    <span>Send File</span>
+                </button>
+                <button class="tab-btn" id="tab-btn-2">
+                    <span>Receive File</span>
+                </button>
+            </div>
+            <div class="content">
+                <div class="inner-content-text">
+                    <img src="./assets/upload symbol.png" alt="" width="78" height="56">
+                    <h2>Drag and drop files here</h2>
+                    <p>or click to browse your computer</p>
+                </div>
+            <button class="file-btn" id="file-btn">Select File</button>
+            <input style="display: none;" type="file" id="file-input">
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
